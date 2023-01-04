@@ -1,0 +1,6 @@
+---
+- name: failure message
+  hosts: all
+  tasks:
+  - debug:
+      msg: playbook failed
